@@ -1,22 +1,31 @@
 {
   "tauri": {
     "bundle": {
-      "icon": ["png/weread_256.ico", "png/weread_32.ico"],
-      "identifier": "com.pake.weread",
+      "icon": [
+        "png/qwwai_256.ico",
+        "png/qwwai_32.ico"
+      ],
+      "identifier": "com.tinyfunny.qwwai",
       "active": true,
       "category": "DeveloperTool",
       "copyright": "",
       "externalBin": [],
       "longDescription": "",
-      "resources": ["png/weread_32.ico"],
+      "resources": [
+        "png/qwwai_32.ico"
+      ],
       "shortDescription": "",
-      "targets": ["msi"],
+      "targets": [
+        "msi"
+      ],
       "windows": {
         "certificateThumbprint": null,
         "digestAlgorithm": "sha256",
         "timestampUrl": "",
         "wix": {
-          "language": ["en-US"],
+          "language": [
+            "zh-CN"
+          ],
           "template": "assets/main.wxs"
         }
       }
