@@ -1,15 +1,17 @@
 {
   "package": {
-    "productName": "WeRead",
-    "version": "1.0.0"
+    "productName": "qwwai",
+    "version": "0.0.1"
   },
   "tauri": {
     "security": {
       "csp": null,
       "dangerousRemoteDomainIpcAccess": [
         {
-          "domain": "weread.qq.com",
-          "windows": ["pake"],
+          "domain": "desktop.6699ai.com",
+          "windows": [
+            "广州简趣信息科技有限公司"
+          ],
           "enableTauriAPI": true
         }
       ]
@@ -25,7 +27,9 @@
       "all": true,
       "fs": {
         "all": true,
-        "scope": ["$DOWNLOAD/*"]
+        "scope": [
+          "$DOWNLOAD/*"
+        ]
       }
     }
   },

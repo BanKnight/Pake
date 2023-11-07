@@ -1,12 +1,6 @@
 {
   "apps": [
     {
-      "name": "weread",
-      "title": "WeRead",
-      "name_zh": "微信阅读",
-      "url": "https://weread.qq.com/"
-    },
-    {
       "name": "qwwai",
       "title": "qwwai",
       "name_zh": "趣问问ai",
