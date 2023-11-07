@@ -17,6 +17,7 @@ export const DEFAULT_PAKE_OPTIONS: PakeCliOptions = {
   debug: false,
   inject: [],
   safeDomain: [],
+  identifier:'',
 };
 
 // Just for cli development

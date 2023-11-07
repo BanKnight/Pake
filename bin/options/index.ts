@@ -52,7 +52,7 @@ export default async function handleOptions(
   const appOptions: PakeAppOptions = {
     ...options,
     name,
-    identifier: getIdentifier(url),
+    identifier: !options.identifier ? getIdentifier(url) : options.identifier
   };
 
   appOptions.icon = await handleIcon(appOptions);

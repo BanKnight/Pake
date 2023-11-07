@@ -38,6 +38,11 @@ on:
         required: false
         type: boolean
         default: false
+      identifier:
+        description: '[identifier,Optional]'
+        required: false
+        type: string
+        default: ''
       targets:
         description: '[Targets, Optional, Linux only]'
         required: false
@@ -129,6 +134,7 @@ jobs:
           RESIZE: ${{ inputs.resize }}
           MULTI_ARCH: ${{ inputs.multi_arch }}
           TARGETS: ${{ inputs.targets }}
+          IDENTIFIER: ${{ inputs.identifier }}
 
       - name: Upload archive
         uses: actions/upload-artifact@v3

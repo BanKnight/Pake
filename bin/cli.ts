@@ -41,6 +41,8 @@ program
   .option('--inject [injects...]', 'Injection of .js or .css Files', DEFAULT.inject)
   .option('--safe-domain [domains...]', 'Domains that Require Security Configuration"', DEFAULT.safeDomain)
   .option('--debug', 'Debug mode', DEFAULT.debug)
+  .option('--identifier <string>', 'Custom user identifier', DEFAULT.identifier)
+
   .version(packageJson.version, '-v, --version', 'Output the current version')
   .action(async (url: string, options: PakeCliOptions) => {
     await checkUpdateTips();

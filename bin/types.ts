@@ -53,6 +53,9 @@ export interface PakeCliOptions {
 
   /* the domain that can use ipc or tauri javascript sdk */
   safeDomain: string[];
+
+  /** the identifier of this app: com.tencent.weread */
+  identifier?: string;
 }
 
 export interface PakeAppOptions extends PakeCliOptions {
